@@ -1,0 +1,50 @@
+.seccion{
+    width: 100vw;
+    display: flex;
+}
+.seccion div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.seccion img{
+    width: 50%;
+}
+.seccion h1{
+    font-weight: 1000;
+    align-self: flex-start;
+}
+.seccion a{
+    align-self: flex-start;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+.seccion a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: yellow;
+    display: block;
+}
+.cir{
+    background-image: url('../public/img/desktop/image-photography.jpg');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    font-size: 0.7rem;
+}
+.ora{
+    background-image: url('../public/img/desktop/image-graphic-design.jpg');
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    font-size: 0.7rem;
+}
+.cir h3{
+    margin-top: 50%;
+}
+.ora h3{
+    margin-top: 50%;
+}
